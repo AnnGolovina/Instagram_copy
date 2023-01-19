@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Oswald:wght@300;400&display=swap');
+body{
+  font-family: 'Catamaran', sans-serif;
+  background-color: #fafdff;
+}
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+header {
+  grid-template-columns: repeat(2, auto);
+  gap: 50px;
+  margin: auto;
+}
+.user-name{
+  font-size: 20px;
+  color: rgb(45, 44, 44);
+  margin-right: 10px;
+
+}
+
+.inline>button{
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 0 7px;
+  margin: 0 5px;
+}
+.inline>button>a{
+  text-decoration: none;
+  color: #1b1b1b;
+  cursor: pointer;
+}
+
+.number{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 20px 10px 20px 0;
+}
+.number>li>span{
+  font-weight: 600;
+}
+.number>li>a{
+  text-decoration: none;
+  color: #1b1b1b;
+}
+li{
+  margin: 10px 40px 0px 0px;
+}
+
+.about>p{
+  margin: 2px;
+}
+.information>p{
+  font-size: 14px;
+}
+.information>p>span>a{
+  font-weight: 600;
+  color: rgb(52, 52, 52);
+  text-decoration: none;
+}
+.wrapper {
+  width: 80%;
+  padding: 5%;
+  height: auto;
+  margin: auto;
+ 
+}
+
+section {
+  margin: 50px 0;
+  grid-template-columns: repeat(3, 130px);
+}
+
+section img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1.5px solid rgb(124, 123, 123);
+  filter: contrast(150%);
+}
+
+.stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.nav-wrapper {
+  width: auto;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid grey;
+  color: grey;
+  padding: 15px;
+}
+
+.nav-wrapper > nav {
+  grid-template-columns: repeat(4, 100px);
+}
+
+.nav-wrapper > nav > button {
+  outline: none;
+  margin: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: grey;
+}
+main{
+	grid-template-columns: repeat(3,25vw);
+	grid-template-rows: repeat(3,25vw);
+	gap: 15px;	
+	margin: auto;
+}
+main>.content{
+border: 1px solid grey;
+width: 25vw;
+height: 25vw;
+}
+.main-wrapper{
+	width: 100%;
+	margin: auto;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+}
