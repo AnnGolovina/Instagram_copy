@@ -37,7 +37,7 @@ header {
   padding: 0 7px;
   margin: 0 5px;
 }
-.inline>button>a{
+a {
   text-decoration: none;
   color: #1b1b1b;
   cursor: pointer;
